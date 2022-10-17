@@ -37,9 +37,9 @@
 
         var widths = {};
         var sandbox = document.getElementsByClassName('sandbox')[0];
-        for (var i = 0; i <= 127; i++) {
+        for (var i = 0; i <= 1105; i++) {
           if (i < 32) continue; // non-printable chars
-          if (i === 127) continue; // DELETE char
+          if (i > 126 && i < 1040) continue; // Non Latin/Non Cyrillic letters
           var letter = String.fromCharCode(i);
           var printableLetter = (letter);
           if (printableLetter === ' ') {
