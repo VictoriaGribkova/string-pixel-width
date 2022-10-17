@@ -1,6 +1,6 @@
 {
-  "name": "string-pixel-width",
-  "version": "1.10.0",
+  "name": "string-pixel-width-ru",
+  "version": "1.0.0",
   "description": "String pixel width measurement on the backend in Javascript",
   "main": "lib/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adambisek/string-pixel-width.git"
+    "url": "https://github.com/VictoriaGribkova/string-pixel-width-ru.git"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
